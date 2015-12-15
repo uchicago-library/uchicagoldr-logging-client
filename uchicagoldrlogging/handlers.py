@@ -1,7 +1,7 @@
 def DefaultTermHandler():
     from logging import StreamHandler
 
-    from uchicagoldrLogging.formatters import default
+    from uchicagoldrlogging.formatters import default
 
     terminalHandler = StreamHandler()
     terminalHandler.setLevel('WARNING')
@@ -12,7 +12,7 @@ def DefaultTermHandler():
 def InfoTermHandler():
     from logging import StreamHandler
 
-    from uchicagoldrLogging.formatters import default
+    from uchicagoldrlogging.formatters import default
 
     terminalHandler = StreamHandler()
     terminalHandler.setLevel('INFO')
@@ -23,7 +23,7 @@ def InfoTermHandler():
 def DebugTermHandler():
     from logging import StreamHandler
 
-    from uchicagoldrLogging.formatters import default
+    from uchicagoldrlogging.formatters import default
 
     terminalHandler = StreamHandler()
     terminalHandler.setLevel('DEBUG')
@@ -34,7 +34,7 @@ def DebugTermHandler():
 def DefaultTermHandlerAtLevel(level):
     from logging import StreamHandler
 
-    from uchicagoldrLogging.formatters import default
+    from uchicagoldrlogging.formatters import default
 
     assert(level in ['DEBUG', 'INFO', 'WARN', 'ERROR', 'CRITICAL'])
 
@@ -47,7 +47,7 @@ def DefaultTermHandlerAtLevel(level):
 def DefaultFileHandler(path):
     from logging import FileHandler
 
-    from uchicagoldrLogging.formatters import default
+    from uchicagoldrlogging.formatters import default
 
     fileHandler = FileHandler(path)
     fileHandler.setLevel('WARNING')
@@ -58,7 +58,7 @@ def DefaultFileHandler(path):
 def InfoFileHandler(path):
     from logging import FileHandler
 
-    from uchicagoldrLogging.formatters import default
+    from uchicagoldrlogging.formatters import default
 
     fileHandler = FileHandler(path)
     fileHandler.setLevel('INFO')
@@ -69,7 +69,7 @@ def InfoFileHandler(path):
 def DebugFileHandler(path):
     from logging import FileHandler
 
-    from uchicagoldrLogging.formatters import default
+    from uchicagoldrlogging.formatters import default
 
     fileHandler = FileHandler(path)
     fileHandler.setLevel('DEBUG')
@@ -80,7 +80,7 @@ def DebugFileHandler(path):
 def DefaultFileHandlerAtLevel(path, level):
     from logging import FileHandler
 
-    from uchicagoldrLogging.formatters import default
+    from uchicagoldrlogging.formatters import default
 
     assert(level in ['DEBUG', 'INFO', 'WARN', 'ERROR', 'CRITICAL'])
 

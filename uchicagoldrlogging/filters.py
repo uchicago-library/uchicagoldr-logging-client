@@ -1,5 +1,5 @@
 import logging
-from uchicagoldrLogging.lib import getUserName, getUserIP
+from uchicagoldrlogging.lib import getUserName, getUserIP
 
 
 class UserAndIPFilter(logging.Filter):
