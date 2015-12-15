@@ -6,7 +6,7 @@ setup(
     author = "Brian Balsamo",
     author_email = "balsamo@uchicago.edu",
     packages = ['uchicagoldrlogging'],
-    description = "A set of classes for staging new files into the repository",
+    description = "A set of classes for adding logging to ldr client code",
     keywords = ["uchicago","repository","file-level","processing"],
     classifiers = [
         "Programming Language :: Python",
